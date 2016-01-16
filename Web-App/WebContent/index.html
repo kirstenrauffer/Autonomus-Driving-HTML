@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Remote Control</title>
+
+<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Raleway:500|Open+Sans' rel='stylesheet' type='text/css'>
+<link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css' rel='stylesheet' type='text/css'>
+<link href='css/normalize.css' rel='stylesheet' type='text/css'>
+<link href='css/style.css' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+<!--Tabs-->
+<ul class='tabs'>
+  <li class="tab active" data-tab="manual">Manual</li>
+  <li class="tab" data-tab="instruction">Instruction</li>
+  <li class="tab" data-tab="output">Output</li>
+</ul>
+
+<!--Manual Tab-->
+<div class='center-manual tab-content active' id='manual'>
+  <button class='blue-button manual-button' id='up'>↑</button>
+  <br>
+  <div class='middle'>
+    <button class='blue-button manual-button left-right' id='left'>←</button>
+    <button class='blue-button manual-button left-right' id='right'>→</button>
+    <br>
+  </div>
+  <button class='blue-button manual-button' type='button' id='down'>↓</button>
+</div>
+
+<!--Instruction Tab-->
+<div class='tab-content' id='instruction'> 
+  <button class='execute center-instruction-buttons'><i class="fa fa-play"></i></button>
+  <button class='brake center-instruction-buttons'><i class="fa fa-stop"></i></button>
+  <div class='queue-container'> <span class='queue-header'>
+    <h2>Queue</h2>
+    <button class='queue-add'>+</button>
+    </span>
+    <div class='queue-options'>
+      <ul>
+        <li class='add-instruction'><a>Forward</a></li>
+        <li class='add-instruction'><a>Backward</a></li>
+        <li class='add-instruction'><a>Turn Left</a></li>
+        <li class='add-instruction'><a>Turn Right</a></li>
+        <li class='add-instruction'><a>Park</a></li>
+        <li class='add-instruction'><a>Stop</a></li>
+      </ul>
+    </div>
+    <ul class='queue'>
+    </ul>
+  </div>
+</div>
+
+<!--Output Tab-->
+<div class="center tab-content" id="output">
+  <button class='execute center-instruction-buttons'><i class="fa fa-play"></i></button>
+  <button class='brake center-instruction-buttons'><i class="fa fa-pause"></i></button>
+
+  <div class="data-options">
+	<form method="post" action="">
+          	<ul>
+			<li>
+				<label for="checkbox_1">gyroscope</label>
+				<input type="checkbox" name="checkbox_1" id="checkbox_1" value="gyroscope" checked="true"/>
+			</li>
+			<li>
+				<label for="checkbox_2">speed</label>
+				<input type="checkbox" name="checkbox_2" id="checkbox_2" value="speed" checked="true"/>
+			</li>
+			<li>
+				<label for="checkbox_3">distance</label>
+				<input type="checkbox" name="checkbox_3" id="checkbox_3" value="distance" checked="true"/>
+			</li>
+		</ul>
+          	<input type="submit" class="data-btn" name="submit_name" id="submit" value="request" />
+   	</form>
+  </div>
+  <div class="output-console">
+  	<h2>Output</h2>
+  	<textarea class="out console" name="outputtext"></textarea>
+  </div>
+</div>
+
+<!--Scripts-->
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+<script src='js/app.js'></script>
+
+</body>
+</html>
