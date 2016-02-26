@@ -12,6 +12,10 @@ class ManualControlController: UIViewController {
 
     @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var stopButton: UIButton!
+    @IBOutlet weak var upButton: UIButton!
+    @IBOutlet weak var leftButton: UIButton!
+    @IBOutlet weak var rightButton: UIButton!
+    @IBOutlet weak var downButton: UIButton!
     
     @IBAction func start(sender: AnyObject) {
         
@@ -20,9 +24,16 @@ class ManualControlController: UIViewController {
     @IBAction func stop(sender: AnyObject) {
     }
     
+    func setUp() {
+        upButton.layer.cornerRadius = 75
+        leftButton.layer.cornerRadius = 75
+        rightButton.layer.cornerRadius = 75
+        downButton.layer.cornerRadius = 75
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setUp()
     }
 
     override func didReceiveMemoryWarning() {

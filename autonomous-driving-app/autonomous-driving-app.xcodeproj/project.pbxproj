@@ -15,7 +15,7 @@
 		01773AF81C80A3960063339C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01773AF61C80A3960063339C /* LaunchScreen.storyboard */; };
 		01773B031C80A3970063339C /* autonomous_driving_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01773B021C80A3970063339C /* autonomous_driving_appTests.swift */; };
 		01773B0E1C80A3970063339C /* autonomous_driving_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01773B0D1C80A3970063339C /* autonomous_driving_appUITests.swift */; };
-		01773B1E1C80AE200063339C /* OuputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01773B1D1C80AE200063339C /* OuputController.swift */; };
+		01773B201C80B9120063339C /* OutputContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01773B1F1C80B9120063339C /* OutputContoller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		01773B091C80A3970063339C /* autonomous-driving-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "autonomous-driving-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01773B0D1C80A3970063339C /* autonomous_driving_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autonomous_driving_appUITests.swift; sourceTree = "<group>"; };
 		01773B0F1C80A3970063339C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01773B1D1C80AE200063339C /* OuputController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OuputController.swift; path = ../OuputController.swift; sourceTree = "<group>"; };
+		01773B1F1C80B9120063339C /* OutputContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputContoller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 				01773AEB1C80A3960063339C /* AppDelegate.swift */,
 				01773AED1C80A3960063339C /* ManualControlController.swift */,
 				01773AEF1C80A3960063339C /* AutonomousControlController.swift */,
-				01773B1D1C80AE200063339C /* OuputController.swift */,
+				01773B1F1C80B9120063339C /* OutputContoller.swift */,
 				01773AF11C80A3960063339C /* Main.storyboard */,
 				01773AF41C80A3960063339C /* Assets.xcassets */,
 				01773AF61C80A3960063339C /* LaunchScreen.storyboard */,
@@ -268,7 +268,7 @@
 				01773AF01C80A3960063339C /* AutonomousControlController.swift in Sources */,
 				01773AEC1C80A3960063339C /* AppDelegate.swift in Sources */,
 				01773AEE1C80A3960063339C /* ManualControlController.swift in Sources */,
-				01773B1E1C80AE200063339C /* OuputController.swift in Sources */,
+				01773B201C80B9120063339C /* OutputContoller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
