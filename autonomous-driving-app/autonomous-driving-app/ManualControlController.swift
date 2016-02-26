@@ -25,10 +25,10 @@ class ManualControlController: UIViewController {
     }
     
     func setUp() {
-        upButton.layer.cornerRadius = 75
-        leftButton.layer.cornerRadius = 75
-        rightButton.layer.cornerRadius = 75
-        downButton.layer.cornerRadius = 75
+        upButton.layer.cornerRadius = 15
+        leftButton.layer.cornerRadius = 15
+        rightButton.layer.cornerRadius = 15
+        downButton.layer.cornerRadius = 15
     }
     
     override func viewDidLoad() {
