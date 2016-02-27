@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01001CF81C8266C300E14760 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01001CF71C8266C300E14760 /* MainViewController.swift */; };
 		01773AEC1C80A3960063339C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01773AEB1C80A3960063339C /* AppDelegate.swift */; };
 		01773AEE1C80A3960063339C /* ManualControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01773AED1C80A3960063339C /* ManualControlController.swift */; };
 		01773AF01C80A3960063339C /* AutonomousControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01773AEF1C80A3960063339C /* AutonomousControlController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01001CF71C8266C300E14760 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		01773AE81C80A3960063339C /* autonomous-driving-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "autonomous-driving-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01773AEB1C80A3960063339C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01773AED1C80A3960063339C /* ManualControlController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualControlController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				01773AEF1C80A3960063339C /* AutonomousControlController.swift */,
 				01773B1F1C80B9120063339C /* OutputContoller.swift */,
 				01773AF11C80A3960063339C /* Main.storyboard */,
+				01001CF71C8266C300E14760 /* MainViewController.swift */,
 				01773AF41C80A3960063339C /* Assets.xcassets */,
 				01773AF61C80A3960063339C /* LaunchScreen.storyboard */,
 				01773AF91C80A3960063339C /* Info.plist */,
@@ -269,6 +272,7 @@
 				01773AEC1C80A3960063339C /* AppDelegate.swift in Sources */,
 				01773AEE1C80A3960063339C /* ManualControlController.swift in Sources */,
 				01773B201C80B9120063339C /* OutputContoller.swift in Sources */,
+				01001CF81C8266C300E14760 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +499,7 @@
 				01773B141C80A3970063339C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01773B151C80A3970063339C /* Build configuration list for PBXNativeTarget "autonomous-driving-appTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +508,7 @@
 				01773B171C80A3970063339C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01773B181C80A3970063339C /* Build configuration list for PBXNativeTarget "autonomous-driving-appUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +517,7 @@
 				01773B1A1C80A3970063339C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
