@@ -22,9 +22,12 @@ class ManualControlController: UIViewController {
     }
     
     @IBAction func stop(sender: AnyObject) {
+        
     }
     
     func setUp() {
+        startButton.layer.cornerRadius = 37.5
+        stopButton.layer.cornerRadius = 37.5
         upButton.layer.cornerRadius = 15
         leftButton.layer.cornerRadius = 15
         rightButton.layer.cornerRadius = 15

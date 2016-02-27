@@ -10,9 +10,31 @@ import UIKit
 
 class AutonomousControlController: UIViewController {
 
+    @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var stopButton: UIButton!
+    @IBOutlet weak var addButton: UIButton!
+    
+    @IBAction func addAction(sender: AnyObject) {
+    
+    }
+    
+    @IBAction func start(sender: AnyObject) {
+    
+    }
+    
+    @IBAction func stop(sender: AnyObject) {
+    
+    }
+
+    func setup() {
+        startButton.layer.cornerRadius = 37.5
+        stopButton.layer.cornerRadius = 37.5
+        addButton.layer.cornerRadius = 16
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setup()
     }
 
     override func didReceiveMemoryWarning() {
