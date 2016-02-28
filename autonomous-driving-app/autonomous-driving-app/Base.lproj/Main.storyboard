@@ -32,6 +32,9 @@
                                                 <state key="normal" title="↑">
                                                     <color key="titleColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="up:" destination="9pv-A4-QxB" eventType="touchUpInside" id="o6q-Wz-ppm"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <animations/>
@@ -57,6 +60,9 @@
                                                         <state key="normal" title="←">
                                                             <color key="titleColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="left:" destination="9pv-A4-QxB" eventType="touchUpInside" id="qy9-b9-opX"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <animations/>
@@ -79,6 +85,9 @@
                                                         <state key="normal" title="→">
                                                             <color key="titleColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="right:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Np3-WL-KwZ"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <animations/>
@@ -124,6 +133,9 @@
                                                 <state key="normal" title="↓">
                                                     <color key="titleColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="down:" destination="9pv-A4-QxB" eventType="touchUpInside" id="90M-KO-ubk"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <animations/>
@@ -188,8 +200,8 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="eoR-h9-gdB"/>
                                                 <exclude reference="TSu-wF-BaA"/>
+                                                <exclude reference="eoR-h9-gdB"/>
                                                 <exclude reference="j8A-UL-Ind"/>
                                             </mask>
                                         </variation>
@@ -222,8 +234,8 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="ava-u4-cUP"/>
                                                 <exclude reference="IDl-OI-bFU"/>
+                                                <exclude reference="ava-u4-cUP"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -245,8 +257,8 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="Msb-3u-Cu0"/>
                                         <exclude reference="7me-Kz-96I"/>
+                                        <exclude reference="Msb-3u-Cu0"/>
                                         <exclude reference="d6x-5d-k3u"/>
                                     </mask>
                                 </variation>
@@ -272,7 +284,7 @@
                         <outlet property="rightButton" destination="TfK-hy-6Vo" id="Wwj-BQ-Z9N"/>
                         <outlet property="startButton" destination="MYp-2b-lbR" id="pYE-iB-0Yf"/>
                         <outlet property="stopButton" destination="YMt-5f-kS8" id="RZC-Ea-tVH"/>
-                        <outlet property="upButton" destination="J58-0v-1nP" id="IMU-j0-UoI"/>
+                        <outlet property="upButton" destination="J58-0v-1nP" id="4GW-a6-kpJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
